@@ -8,13 +8,13 @@ import { Component  } from '@angular/core';
 
 export class AppComponent {
   title = 'communicate';
-  firstName: string;
-lastName: string;
+  fname: string;
+lname: string;
   
   ngOnInit(){
-    this.firstName = 'John';
-    console.log(this.firstName);
-    this.lastName = 'Doe';
+    this.fname = 'John';
+    console.log(this.fname);
+    this.lname = 'Doe';
    }
 }
 
