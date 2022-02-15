@@ -1,0 +1,6 @@
+4-6 pm : project work
+how to write a unit test case in MVC
+HOW TO READ HTML INPUT VALUES USING JQUERY
+EDMX FILE.
+HOW TO CALL STORED PROCEDURE FOR CRUD OPERATION
+

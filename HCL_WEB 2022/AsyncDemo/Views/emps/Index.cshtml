@@ -1,0 +1,53 @@
+﻿@model IEnumerable<AsyncDemo.Models.emp>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ename)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.desig)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.salary)
+            </th>
+            <th></th>
+        </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ename)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.desig)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.salary)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.empno }) |
+                @Html.ActionLink("Details", "Details", new { id=item.empno }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.empno })
+            </td>
+        </tr>
+    }
+    
+    </table>
+</body>
+</html>

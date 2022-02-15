@@ -1,0 +1,28 @@
+﻿@using Web_Day4.Models
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Contact</title>
+</head>
+<body>
+    <div>
+
+        @{
+            string msg1 = null;
+            if (TempData["DepartmentInfo"] != null)
+            {
+                <h2> @((TempData["Departmentinfo"] as Dept).deptno)</h2>
+                <h2> @((TempData["Departmentinfo"] as Dept).dname)</h2>
+            }
+
+            <h4>@msg1</h4>
+        }
+    </div>
+</body>
+</html>

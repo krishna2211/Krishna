@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="febDemoModelStoreContainer" CdmEntityContainer="febDemoEntities">
+    <EntitySetMapping Name="emps">
+      <EntityTypeMapping TypeName="febDemoModel.emp">
+        <MappingFragment StoreEntitySet="emp">
+          <ScalarProperty Name="empno" ColumnName="empno" />
+          <ScalarProperty Name="ename" ColumnName="ename" />
+          <ScalarProperty Name="desig" ColumnName="desig" />
+          <ScalarProperty Name="salary" ColumnName="salary" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="febDemoModel.emp">
+        <ModificationFunctionMapping>
+          <InsertFunction FunctionName="febDemoModel.Store.InsertEmp">
+            <ScalarProperty Name="salary" ParameterName="salary" />
+            <ScalarProperty Name="desig" ParameterName="desig" />
+            <ScalarProperty Name="ename" ParameterName="ename" />
+            <ScalarProperty Name="empno" ParameterName="empno" />
+          </InsertFunction>
+          <UpdateFunction FunctionName="febDemoModel.Store.updateEmp">
+            <ScalarProperty Name="salary" ParameterName="salary" Version="Current" />
+            <ScalarProperty Name="desig" ParameterName="desig" Version="Current" />
+            <ScalarProperty Name="ename" ParameterName="ename" Version="Current" />
+            <ScalarProperty Name="empno" ParameterName="empno" Version="Current" />
+          </UpdateFunction>
+          <DeleteFunction FunctionName="febDemoModel.Store.DeleteEmp">
+            <ScalarProperty Name="empno" ParameterName="empno" />
+          </DeleteFunction>
+        </ModificationFunctionMapping>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="DeleteEmp" FunctionName="febDemoModel.Store.DeleteEmp" />
+    <FunctionImportMapping FunctionImportName="InsertEmp" FunctionName="febDemoModel.Store.InsertEmp" />
+    <FunctionImportMapping FunctionImportName="updateEmp" FunctionName="febDemoModel.Store.updateEmp" />
+  </EntityContainerMapping>
+</Mapping>

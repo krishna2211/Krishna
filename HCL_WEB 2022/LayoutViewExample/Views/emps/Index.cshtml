@@ -1,0 +1,46 @@
+﻿@model IEnumerable<LayoutViewExample.Models.emp>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/MyView.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ename)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.desig)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.salary)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ename)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.desig)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.salary)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.empno }) |
+            @Html.ActionLink("Details", "Details", new { id=item.empno }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.empno })
+        </td>
+    </tr>
+}
+
+</table>

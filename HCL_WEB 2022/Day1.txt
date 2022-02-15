@@ -1,0 +1,56 @@
+
+ASP.NET 
+
+features 
+
+It is the client-server architecture meant for designing the web applications.
+
+Typically in Asp.net application the browser(client) sends the requests to the web server and the server processes the requests and returns the HTML output back to the client.
+
+web servers are IIS, development server provided by visual studio.
+
+VS is the IDE for designing the web applications.
+.NET supported C# language will be used for developing web applications.
+
+SERVER Controls 
+HTML Controls
+validation controls
+Databound controls
+Navigation controls
+login controls
+web parts 
+user controls
+custom controls
+
+Server controls have runat=server attribute which will make them run on server.
+for eg : <asp:button id ="b1" text="click here" runat=server/>
+these are for server-side web development.
+
+HTML Controls will start with <input type="text" runat="server"/>
+These are used for client-side web development.
+
+
+There are 2 types of coding models in ASP.NET 
+
+1.Code-behind  designing and coding areas are seperate.
+2.Inline code  designing and coding in single page.
+
+ASP.NET CONFIGURATION
+
+The behavior of an ASP.NET application is affected by different settings in the configuration files:
+
+machine.config
+
+web.config
+
+
+The machine.config file contains default and the machine-specific value for all supported settings. The machine settings are controlled by the system administrator and applications are generally not given access to this file.
+
+An application however, can override the default values by creating web.config files in its roots folder. The web.config file is a subset of the machine.config file.
+
+If the application contains child directories, it can define a web.config file for each folder. Scope of each configuration file is determined in a hierarchical top-down manner.
+
+Any web.config file can locally extend, restrict, or override any settings defined on the upper level.
+
+Visual Studio generates a default web.config file for each project. An application can execute without a web.config file, however, you cannot debug an application without a web.config file.
+

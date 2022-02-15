@@ -1,0 +1,66 @@
+The file extension an ASP.NET web form is____________.
+.docx
+.aspx
+.jpeg
+None of the above
+
+Which file contains settings for all .NET application types, such as Windows, Console, ClassLibrary, and Web applications?
+
+Web.config
+Machine.config =a
+Global.asax
+All of the above
+
+Which programming model should you implement if you want to separate your server-side code from your client-side layout code in a Web page?
+
+Single-file model
+Code-behind model =a
+Inline model
+Client-server model
+
+
+You want to make a configuration setting change that will affect only the current Web application. Which file will you change?
+
+Global.asax
+Web.config in the root of the Web application =a
+Machine.config
+All of the above
+
+ __________________ file apply settings to all ASP.NET applications
+
+web.config
+machine.config =a
+global.asax file
+application object
+
+Which attribute is necessary for HTML control to work as a HTML server control?
+
+runat=”server” --> a
+runat=”web-server”
+ID=”server”
+ID=”web-server”
+
+What is the fully qualified name of the base class of all server controls?
+System.Web.UI.Control =a
+System.Web.UI
+System.Control
+All of the above
+
+Which is the first event of ASP.NET page, when user requests a web page ?
+PreLoad
+Load
+Preinit =a
+Init
+
+Which protocol is used for requesting a web page in ASP.NET from the Web Server?
+HTTP =a
+TCP
+SMTP
+None of the above.
+
+The process in which the web page sends the data back to the same page on the server is called______
+
+postback
+querystring
+session
+All of the above 

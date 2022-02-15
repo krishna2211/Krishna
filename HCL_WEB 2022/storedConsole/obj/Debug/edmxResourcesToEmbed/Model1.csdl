@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="febDemoModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="emp">
+    <Key>
+      <PropertyRef Name="empno" />
+    </Key>
+    <Property Name="empno" Type="Int32" Nullable="false" />
+    <Property Name="ename" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="desig" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="salary" Type="Decimal" Precision="19" Scale="4" />
+  </EntityType>
+  <EntityContainer Name="febDemoEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="emps" EntityType="Self.emp" />
+    <FunctionImport Name="DeleteEmp">
+      <Parameter Name="empno" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="InsertEmp">
+      <Parameter Name="empno" Mode="In" Type="Int32" />
+      <Parameter Name="ename" Mode="In" Type="String" />
+      <Parameter Name="desig" Mode="In" Type="String" />
+      <Parameter Name="salary" Mode="In" Type="Decimal" />
+    </FunctionImport>
+    <FunctionImport Name="updateEmp">
+      <Parameter Name="empno" Mode="In" Type="Int32" />
+      <Parameter Name="ename" Mode="In" Type="String" />
+      <Parameter Name="desig" Mode="In" Type="String" />
+      <Parameter Name="salary" Mode="In" Type="Decimal" />
+    </FunctionImport>
+  </EntityContainer>
+</Schema>

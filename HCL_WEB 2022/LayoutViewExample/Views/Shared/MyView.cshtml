@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <style>
+        table, th, td {
+            border: 1px solid grey;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        table tr:nth-child(odd) {
+        background-color: #ffe6e6;
+        }
+         table tr:nth-child(even) {
+         background-color: #ccffcc;
+            }
+    </style>
+</head>
+<body style="font-family:Arial; font-size:medium; color:darkblue">
+    <div>
+        <table>
+            <tr>
+                <td colspan="2" style="text-align:center">
+                <h3>Employee Detail</h3></td>
+            </tr>
+            <tr>
+                <td style="width:130px">@Html.ActionLink("Employee List", "Index")</td>
+                <td style="width:500px">@RenderBody()</td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center">
+                <h3>Website Footer</h3>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

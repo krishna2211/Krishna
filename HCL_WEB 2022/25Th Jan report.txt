@@ -1,0 +1,45 @@
+DQ_ERS_JS_13_Sep
+
+
+State Management in ASP.NET 
+
+Http protocol is a stateless protocol.
+Stateless meaning the protocol will remove or clean up the resources that were serving the request in the past.
+Resources can be session id 
+Objects
+Urls
+
+Client (browser)--------Request---------------->Webserver 
+    html format        <------------Response-------------
+
+ASP.NET supports 2 types of state Management
+
+Client-side  : It is handled by the client and state information is stored on client machine.
+ViewState
+cookies
+Hidden Fields
+Query String
+
+Server-side  : Handled by server.
+Database
+session
+Application-level variable
+
+
+ViewState : It is meant for storing the data temporarily after the postback.
+This property is enabled by default.
+EnableViewState : true or false
+
+Application level variable acts a global variable.
+This variable can be accessed from all the web pages of the web application.
+It is declared in global.asax file.
+This file cannot be made as a startup object.
+
+
+1.Annanya =Absent today
+2.Kosuri laxmi Bhavani =left hcl
+3.Devi priya
+4.Sameni Nikhil 
+
+
+

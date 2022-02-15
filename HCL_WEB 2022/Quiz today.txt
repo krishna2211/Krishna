@@ -1,0 +1,89 @@
+We can manage the states in ASP.NET using which of the following options?
+ViewState
+Application State
+Session State
+All of the above =a
+
+Which attribute must be set on a validation control to work properly?
+ControlToValidate =a
+ControlToBind
+Validate
+ValidateControl
+
+What is used to validate complex string patterns like an email-address?
+Regular Expressions =a
+Extended Expressions
+Basic Expressions
+Custom Expressions
+
+Which of the following is the alternate way of displaying text on web page?
+label
+ListItem
+Button
+All of the above
+
+Which of the following ASP.NET object encapsulates the state of client?
+Session =a
+Application
+Response
+
+Which of the following control is used to validate that the two fields are equal?
+equals() method
+Compare Validator =a
+Required Field Validator
+Regular Expression Validator
+
+Postback event occurs in which of the following forms in ASP.NET ?
+Winforms
+WebForms =a
+HtmlForms
+All of the above
+
+How ASP.NET is different from classic ASP?
+Scripting is seperated from html and code is interpreted seperately.
+Scripting is seperated from html and code is compiled as DLL.
+Code is seperated from HTML and interpreted code is interpreted seperately. =a
+
+You need to store the data that is accessible to any user who connects to your web application. Which object should be used?
+
+Session
+Application=a
+Response.Cookies
+Response.ViewState
+
+In which of the following format the output will be rendered to browser when an .aspx page is requested from the web server?
+HTML
+XML
+WML
+XAML
+
+Web.config file is used for which of the following options stated below ?
+To configure the web server
+To configure the web browser
+Configures the time that the server-side codebehind module is called
+To store the global information and variable definitions for the application =a
+
+Why is Global.asax file is used?
+Implement application and session level events =a
+Declare Global variables
+No use
+All of the above
+
+Which of the following is not the way to maintain state?
+Request object	=a
+Hidden fields
+View state	
+Cookies
+
+Which method forces all the validation controls to run in ASP.NET?
+Verify
+Authenticate
+check
+validate =a
+
+Which data type is supported by Range Validator Control ?
+string
+integer
+double
+Currency
+All of the above

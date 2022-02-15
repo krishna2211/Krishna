@@ -1,0 +1,46 @@
+﻿@model IEnumerable<WebDay3.Models.Dept>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    
+    <table class="table" border="0">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.deptno)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.location)
+            </th>
+            <th></th>
+        </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.deptno)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.location)
+            </td>
+         </tr>
+    }
+    
+    </table>
+</body>
+</html>

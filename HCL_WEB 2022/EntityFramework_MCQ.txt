@@ -1,0 +1,60 @@
+An________ is a set of entities of the same type that share the same properties, or attributes.
+Entity set  =a
+Attribute set
+Relation set
+Entity model
+
+The descriptive property possessed by each entity set is _________
+Entity
+Attribute =a
+Relation
+Model
+
+Not applicable condition can be represented in relation entry in entity framework  as _______.
+NA 
+0
+NULL =a
+Blank Space
+
+How can enhance the performance of Entity Framework?
+Try to avoid to put all the DB objects into one single entity model.
+Disable change tracking for entity if not needed.
+Reduce response time for the first request by using pre-generating Views.
+All of the above =a
+
+ What are the types of development approaches in EF?
+Code First
+Model First
+Database First
+All of above mentioned =a
+
+___________is referred to as a class in the Entity Framework API that helps create a communication between the database and the domain/entity class. 
+
+DbContext =a
+DataContext
+EntitySet
+None of the above
+
+Which of the following statements are true about POCO classes?
+POCO classes are usually defined as the classes that do not include any reference specific to the EF or .NET framework. 
+POCO classes support various LINQ queries that are supported by the derived entities of the Entity Object.
+All of the above =a
+None of the above
+
+In the context of Entity Framework, a ______file is a simple XML file that may contain storage models, conceptual models, and the mapping between them.
+DBML
+DAL
+edmx =a
+None of the above
+
+Enlist a few O/RMs names that can be used with .NET based applications.
+Entity Framework 6.x
+Entity Framework Core
+N Hibernate
+All of the above
+
+________ consists of the three parts, such as storage model, conceptual model, and mapping.
+Entity Data Model =a
+Entity SQL
+LINQ to Entities (L2E)
+Entity Client Data Provider

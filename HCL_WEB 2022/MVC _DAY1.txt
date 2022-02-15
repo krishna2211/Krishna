@@ -1,0 +1,53 @@
+ASP.NET : Web Applications using .NET framework.
+ASP.NET MVC (Model-view-Controller): It is architectural software design pattern for developing interactive web applications.
+In mvc there is a clean seperation of code.
+It involves the user interaction which give rise to the events.
+Main objective of MVC is seperation of concerns which means domain model and buisness logic are seperated from UI.
+
+Model : Domain Model
+COntroller: Buisness logic
+VIEW :UI user interface.
+
+
+Controller is also acting as a manager which will assist in communication/coordination between model and view.
+
+Model folder
+COntroller folder
+View folder
+
+There are no server controls like ASP.NET in case of MVC.
+The web page in ASP.NET MVC is much lighter as compared to web forms in ASP.NET. 
+No view state present in MVC application since server controls are not present in MVC.
+UI or view is designed by using html helper methods.
+MVC follows razor view engine.
+Razor Syntax 
+There are many view engines available in the market.
+eg: .aspx, Razor, spark, Nhtml
+
+
+Model : is a component in MVC design pattern that manages the buisness data.
+It contains the classes to represent the data as well as logic to manage the data.
+Model is accessible by controller and view.
+It can be used to pass the data from controller to view.
+It can also be used by a view to display html output.
+Model is simply a class written in C# or vb.net.
+
+eg: Emp, Dept, person, Mobile, Car, Inventory
+=================================================================================================
+View : is the component in MVC which will display the model data as the user interface.
+For eg : If the model is Emp then view will contain the details of Emp such as Empno, Ename, Desig and so on.
+View is cshtml page. CS+HTML or VBHTML VB+HTML
+It is going to page specific html generation and formatting code.
+A request from controller's action method is going to display or show the view in browser.
+View performs only a single task of displaying domain data or buisness data.
+====================================================================================================
+Controller : it contains control flow logic.
+It will talk to both model and view to control the application execution.
+Controller handles the incoming requests from the client, based on actions repsective controller will work with model and view.
+Thus controller sends the response back to the user who made the request initially.
+Controller class contains the action methods.
+====================================================================================================
+ASP.NET MVC FRAMEWORK assists in TDD(test driven development).
+MVC framework is built on the top of ASP.NET. 
+MVC supports sessions, caching, security, url routing mechanism.
+MVC is extensible and pluggable in nature.

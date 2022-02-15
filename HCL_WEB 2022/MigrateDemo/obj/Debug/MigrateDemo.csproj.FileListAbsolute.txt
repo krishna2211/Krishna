@@ -1,0 +1,15 @@
+E:\HCL_WEB 2022\MigrateDemo\bin\Debug\MigrateDemo.exe.config
+E:\HCL_WEB 2022\MigrateDemo\bin\Debug\MigrateDemo.exe
+E:\HCL_WEB 2022\MigrateDemo\bin\Debug\MigrateDemo.pdb
+E:\HCL_WEB 2022\MigrateDemo\bin\Debug\EntityFramework.dll
+E:\HCL_WEB 2022\MigrateDemo\bin\Debug\EntityFramework.SqlServer.dll
+E:\HCL_WEB 2022\MigrateDemo\bin\Debug\EntityFramework.xml
+E:\HCL_WEB 2022\MigrateDemo\bin\Debug\EntityFramework.SqlServer.xml
+E:\HCL_WEB 2022\MigrateDemo\obj\Debug\MigrateDemo.csproj.AssemblyReference.cache
+E:\HCL_WEB 2022\MigrateDemo\obj\Debug\MigrateDemo.csproj.CoreCompileInputs.cache
+E:\HCL_WEB 2022\MigrateDemo\obj\Debug\MigrateDemo.csproj.CopyComplete
+E:\HCL_WEB 2022\MigrateDemo\obj\Debug\MigrateDemo.exe
+E:\HCL_WEB 2022\MigrateDemo\obj\Debug\MigrateDemo.pdb
+E:\HCL_WEB 2022\MigrateDemo\obj\Debug\MigrateDemo.Migrations.InitialCreate.resources
+E:\HCL_WEB 2022\MigrateDemo\obj\Debug\MigrateDemo.csproj.GenerateResource.cache
+E:\HCL_WEB 2022\MigrateDemo\obj\Debug\MigrateDemo.Migrations.MigrationForColorInCar.resources

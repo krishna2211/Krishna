@@ -1,0 +1,12 @@
+E:\HCL_WEB 2022\storedConsole\bin\Debug\storedConsole.exe.config
+E:\HCL_WEB 2022\storedConsole\bin\Debug\storedConsole.exe
+E:\HCL_WEB 2022\storedConsole\bin\Debug\storedConsole.pdb
+E:\HCL_WEB 2022\storedConsole\bin\Debug\EntityFramework.dll
+E:\HCL_WEB 2022\storedConsole\bin\Debug\EntityFramework.SqlServer.dll
+E:\HCL_WEB 2022\storedConsole\bin\Debug\EntityFramework.xml
+E:\HCL_WEB 2022\storedConsole\bin\Debug\EntityFramework.SqlServer.xml
+E:\HCL_WEB 2022\storedConsole\obj\Debug\storedConsole.csproj.AssemblyReference.cache
+E:\HCL_WEB 2022\storedConsole\obj\Debug\storedConsole.csproj.CoreCompileInputs.cache
+E:\HCL_WEB 2022\storedConsole\obj\Debug\storedConsole.csproj.CopyComplete
+E:\HCL_WEB 2022\storedConsole\obj\Debug\storedConsole.exe
+E:\HCL_WEB 2022\storedConsole\obj\Debug\storedConsole.pdb

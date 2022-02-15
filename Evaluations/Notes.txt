@@ -1,0 +1,46 @@
+JWT (JSON web token) has become more and more popular in web development. 
+
+It is an open standard which allows transmitting data between parties as a JSON object in a secure and compact way. 
+
+The data transmitting using JWT between parties are digitally signed so that it can be easily verified and trusted.
+
+ It can be signed using public / private key (ECDSA or RAS) or made secret with HMAC algorithm. It is very popular in web development.
+ 
+Structure of JWT
+ 
+It consists of three parts: Header, Payload, and Signature; all are separated by the dots(.). So JWT looks like - "hhhhhhhhhh.ppppppppp.ssssssss".
+ 
+Header
+ 
+It consists of two parts: the hashing algorithm being used such as HMAC SHA256 or RAS, and the type of token, that is, JWT.
+
+Payload
+ 
+The second part of the JWT is a payload that contains the claims. Claims are the statements about the entity, such as a user. And also, the payload contains the additional metadata. There are three types of Claims: Registered, Public, and Private.
+
+Signature
+ 
+To create the Signature part, we have to use encoded header and payload, a secret that used by the algorithm specified in the header and sign that. The signature is used to verify that the message wasn't changed in transition.
+
+
+What is Swagger?
+ 
+Swagger is an open source api documentation that helps us to understand API service methods.
+ 
+When we consume a web API, then understanding its various methods and verbs can be challenging for a developer.  This solves the problem of generating documentation.  It's also known as OpenAPI.
+ 
+There are three core components of it,
+Swashbuckle.AspNetCore.Swagger: A Swagger object model expose SwaggerDocument objects in JSON.
+Swashbuckle.SwaggerGen : It provides the functionality to generate JSON Swagger.
+Swashbuckle.SwaggerUI : The Swagger UI tool uses the above documents for a rich customization for describing the Web API functionality.
+Package installation
+ 
+There are 2 ways that you can install packages.
+Package Manager Console
+Go to tools > Nuget Packege Manager > Package Manager Console
+ 
+Navigate to the directory in which your file exists.
+ 
+Execute the following command:
+ 
+Install-Package Swashbuckle.AspNetCore -Version 5.5.0

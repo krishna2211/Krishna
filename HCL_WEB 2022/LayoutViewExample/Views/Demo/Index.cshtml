@@ -1,0 +1,42 @@
+﻿<h3><b>Forms - Pure HTML and JQUERY</b></h3>
+
+<table>
+    <tr>
+        <td>Enter ID: </td>
+        <td><input type="text" id="id" /></td>
+    </tr>
+    <tr>
+        <td>Enter First Name: </td>
+        <td><input type="text" id="fname" /></td>
+    </tr>
+    <tr>
+        <td>Enter Last Name: </td>
+        <td><input type="text" id="lname" /></td>
+    </tr>
+    <tr>
+        <td>Enter Department Name </td>
+        <td><input type="text" id="dname" /></td>
+    </tr>
+    <tr>
+        <td>Enter Salary </td>
+        <td><input type="text" id="sal" /></td>
+    </tr>
+    <tr>
+        <td colspan="2"><button onclick="submit()">Submit Form</button></td>
+    </tr>
+</table>
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<h4 style="color:purple" id="output"></h4>
+<script>
+    function submit() {
+        var data = {
+            id: $('#id').val(),
+            fname: $('#fname').val(),
+            lname: $('#lname').val(),
+            dname: $('#dname').val(),
+            sal:   $('#sal').val()
+        };
+
+        $.post("/Demo/Index", { pm: data }, function () { alert('Successfully Saved') });
+    }
+</script>

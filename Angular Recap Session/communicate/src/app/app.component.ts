@@ -9,7 +9,7 @@ import { Component  } from '@angular/core';
 export class AppComponent {
   title = 'communicate';
   fname: string;
-lname: string;
+  lname: string;
   
   ngOnInit(){
     this.fname = 'John';
